@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Mi Tienda</title>
+  </head>
+  <body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light shadow-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/images/logo.png" alt="" width="150" height="100" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="#">Tabla de Productos</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link bg-primary rounded-pill mx-2 font-weight-bold" href="#">Registrate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Carousel-->
+    <div class="carousel slide py-5" id="mainSlider" data-ride="carousel">
+      <div class="carousel-inner pl-5">
+        <div class="carousel-item active">
+          <img src="/images/football.jpg" alt="" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/botin.jpeg"
+            alt=""
+            class="d-block w-100 "
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="/images/gorra-azul-chica.jpg" alt="" class="d-block w-100" />
+        </div>
+      </div>
+      <a
+        href="#mainSlider"
+        class="carousel-control-prev"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a
+        href="#mainSlider"
+        class="carousel-control-next"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+    <!--Products-->
+    <div id="products">
+      <div class="container-md p-5">
+        <div class="row pt-5">
+          <h3 class="text-center pb-5 pt-5">Productos</h3>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <div class="card w-100 card-border mb-5 shadow-lg">
+              <div class="card-body">
+                <h5 class="card-title">Pantalon</h5>
+                <p class="card-text">Pantalon Nike Training Barcelona</p>
+                <a href="/src/productos/pantalon.html"><button class="btn btn-primary">Mas info</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card w-100 card-border mb-5 shadow-lg">
+              <div class="card-body">
+                <h5 class="card-title">Remera</h5>
+                <p class="card-text">Remera Nike Barcelona</p>
+                <a href="/src/productos/remera.html"><button class="btn btn-primary">Mas Info</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card w-100 card-border mb-5 shadow-lg">
+              <div class="card-body">
+                <h5 class="card-title">Gorra</h5>
+                <p class="card-text">Gorra Nike New Design</p>
+                <a href="/src/productos/gorra.html"><button class="btn btn-primary">Mas Info</button></a> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
